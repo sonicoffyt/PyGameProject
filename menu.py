@@ -40,7 +40,7 @@ class MainMenu(Menu):
             self.game.check_events()
             self.check_input()
             self.game.display.fill(self.game.WHITE)
-            self.game.draw_text('Волк ловит яйца', 60, self.game.DISPLAY_W / 2, self.game.DISPLAY_H / 2.4)
+            self.game.draw_text('Ну, погоди!', 60, self.game.DISPLAY_W / 2, self.game.DISPLAY_H / 2.4)
             self.game.draw_text("Начать игру", 60, self.start_x, self.start_y)
             self.game.draw_text("Помощь", 60, self.helping_x, self.helping_y)
             self.draw_cursor()
